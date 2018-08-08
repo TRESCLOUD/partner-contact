@@ -1,33 +1,29 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * partner_external_map
-# 
+#
 # Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2016
+# OCA Transbot <transbot@odoo-community.org>, 2017
 # Tiago Baptista <tiago@baptista.net>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-25 01:45+0000\n"
-"PO-Revision-Date: 2017-01-25 01:45+0000\n"
+"POT-Creation-Date: 2017-11-21 01:49+0000\n"
+"PO-Revision-Date: 2017-11-21 01:49+0000\n"
 "Last-Translator: Tiago Baptista <tiago@baptista.net>, 2017\n"
-"Language-Team: Portuguese (Portugal) (https://www.transifex.com/oca/teams/23907/pt_PT/)\n"
+"Language-Team: Portuguese (Portugal) (https://www.transifex.com/oca/"
+"teams/23907/pt_PT/)\n"
+"Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: pt_PT\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: partner_external_map
 #: code:addons/partner_external_map/models/res_partner.py:32
 #, python-format
 msgid "Address missing on partner '%s'."
-msgstr ""
-
-#. module: partner_external_map
-#: model:ir.model.fields,field_description:partner_external_map.field_res_users_zip_id
-msgid "City/Location"
 msgstr ""
 
 #. module: partner_external_map
@@ -43,7 +39,7 @@ msgstr "Criado em"
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website_display_name
 msgid "Display Name"
-msgstr "Nome"
+msgstr "Nome a Apresentar"
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website_id
@@ -58,8 +54,8 @@ msgstr ""
 #. module: partner_external_map
 #: model:ir.model.fields,help:partner_external_map.field_map_website_lat_lon_url
 msgid ""
-"In this URL, {LATITUDE} and {LONGITUDE} will be replaced by the latitude and"
-" longitude (requires the module 'base_geolocalize')"
+"In this URL, {LATITUDE} and {LONGITUDE} will be replaced by the latitude and "
+"longitude (requires the module 'base_geolocalize')"
 msgstr ""
 
 #. module: partner_external_map
@@ -73,14 +69,14 @@ msgstr ""
 #: model:ir.model.fields,help:partner_external_map.field_map_website_route_lat_lon_url
 msgid ""
 "In this URL, {START_LATITUDE}, {START_LONGITUDE}, {DEST_LATITUDE} and "
-"{DEST_LONGITUDE} will be replaced by the latitude and longitude of the start"
-" and destination adresses (requires the module 'base_geolocalize')."
+"{DEST_LONGITUDE} will be replaced by the latitude and longitude of the start "
+"and destination adresses (requires the module 'base_geolocalize')."
 msgstr ""
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website___last_update
 msgid "Last Modified on"
-msgstr "Modificado em"
+msgstr "Última Modificação em"
 
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_map_website_write_uid
@@ -188,11 +184,6 @@ msgstr ""
 #. module: partner_external_map
 #: model:ir.model.fields,field_description:partner_external_map.field_res_users_context_route_start_partner_id
 msgid "Start Address for Route Map"
-msgstr ""
-
-#. module: partner_external_map
-#: model:ir.model.fields,field_description:partner_external_map.field_res_users_street3
-msgid "Street 3"
 msgstr ""
 
 #. module: partner_external_map
